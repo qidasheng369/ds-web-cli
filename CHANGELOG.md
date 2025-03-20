@@ -1,6 +1,17 @@
 # Changelog
 
 
+## [v1.2.2](https://github.com/qidasheng369/ds-web-cli/compare/v1.2.1...v1.2.2) (2025-03-20)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **projects**: 修改命令的名字 &nbsp;-&nbsp; by **齐大胜** [<samp>(dcfb6)</samp>](https://github.com/qidasheng369/ds-web-cli/commit/dcfb662)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+
+[齐大胜](mailto:782395122@qq.com)
+
 ## [v1.2.1](https://github.com/soybeanjs/cli/compare/v1.2.0...v1.2.1) (2025-03-20)
 
 ### &nbsp;&nbsp;&nbsp;🚀 Features

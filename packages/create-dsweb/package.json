@@ -1,7 +1,7 @@
 {
   "name": "create-dsweb",
   "type": "module",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Ds's web command line to create different project templates",
   "author": {
     "name": "Soybean",

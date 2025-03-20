@@ -1,7 +1,7 @@
 {
   "name": "@ds-web/cli",
   "type": "module",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "packageManager": "pnpm@10.6.3",
   "description": "Ds's web command line tools",
   "author": {
