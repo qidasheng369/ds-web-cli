@@ -1,0 +1,33 @@
+{
+  "name": "pnpm-monorepo",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.6.3",
+  "scripts": {
+    "cleanup": "dsweb cleanup",
+    "commit": "dsweb git-commit",
+    "lint": "eslint . --fix",
+    "prepare": "simple-git-hooks",
+    "release": "dsweb release",
+    "typecheck": "tsc --noEmit --skipLibCheck",
+    "update-pkg": "dsweb ncu"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@ds-web/cli": "1.2.1",
+    "@soybeanjs/eslint-config": "1.6.0",
+    "eslint": "9.22.0",
+    "lint-staged": "15.5.0",
+    "simple-git-hooks": "2.11.1",
+    "tsx": "4.19.3",
+    "typescript": "5.8.2"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "pnpm dsweb git-commit-verify",
+    "pre-commit": "pnpm typecheck && pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
+}

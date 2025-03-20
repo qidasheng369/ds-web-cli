@@ -1,0 +1,14 @@
+{
+  "name": "demo-pkg",
+  "type": "module",
+  "version": "1.2.1",
+  "private": true,
+  "packageManager": "pnpm@10.6.3",
+  "scripts": {
+    "typecheck": "tsc --noEmit --skipLibCheck"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "5.8.2"
+  }
+}

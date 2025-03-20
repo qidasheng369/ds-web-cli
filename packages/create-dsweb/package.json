@@ -1,0 +1,46 @@
+{
+  "name": "create-dsweb",
+  "type": "module",
+  "version": "1.2.1",
+  "description": "Ds's web command line to create different project templates",
+  "author": {
+    "name": "Soybean",
+    "email": "soybeanjs@outlook.com",
+    "url": "https://github.com/soybeanjs"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/qidasheng369/ds-web-cli/tree/main/packages/create-soybean",
+  "repository": {
+    "url": "https://github.com/qidasheng369/ds-web-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qidasheng369/ds-web-cli/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bin": {
+    "create-soybean": "dist/index.js",
+    "create-dsweb": "dist/index.js",
+    "create-soy": "dist/index.js"
+  },
+  "files": ["dist", "template-*"],
+  "scripts": {
+    "build": "pnpm typecheck && pnpm build-only",
+    "build-only": "tsup",
+    "publish-pkg": "pnpm publish --access public --no-git-checks",
+    "typecheck": "tsc --noEmit --skipLibCheck"
+  },
+  "dependencies": {
+    "consola": "3.4.2",
+    "kolorist": "1.8.0",
+    "minimist": "1.2.8",
+    "prompts": "2.4.2"
+  },
+  "devDependencies": {
+    "@types/minimist": "1.2.5",
+    "@types/prompts": "2.4.9",
+    "tsup": "8.4.0",
+    "typescript": "5.8.2"
+  }
+}
