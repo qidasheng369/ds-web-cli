@@ -14,7 +14,7 @@ async function updateTemplateVersion() {
 
   const pkgVersionReg = /"version": "\d+\.\d+\.\d+(-(beta|alpha)\.\d+)?"/;
 
-  const soybeanJsCliVersionReg = /"@soybeanjs\/cli": "\d+\.\d+\.\d+(-(beta|alpha)\.\d+)?"/;
+  const soybeanJsCliVersionReg = /"@ds-web\/cli": "\d+\.\d+\.\d+(-(beta|alpha)\.\d+)?"/;
 
   for await (const glob of globs) {
     const json = await readFile(glob, 'utf-8');
